@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MVVMSimpleApp</string>
+    <string name="splash_image">Logo</string>
+    <string name="main_title">Halaman Utama</string>
+    <string name="name_label">Nama:</string>
+    <string name="email_label">Email:</string>
+    <string name="share_prompt">Share via</string>
+    <string name="about_page">Halaman About</string>
+    <string name="instrument_image" />
+    <item name="card_view" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="about_icon" type="id" />
+    <item name="detail_overview" type="id" />
+    <item name="item_overview" type="id" />
+</resources>

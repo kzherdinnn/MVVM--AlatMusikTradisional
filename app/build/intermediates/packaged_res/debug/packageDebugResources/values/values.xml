@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorCardBackground">#FFFFFF</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <item name="about_icon" type="id"/>
+    <item name="card_view" type="id"/>
+    <item name="detail_overview" type="id"/>
+    <item name="item_overview" type="id"/>
+    <item name="recyclerView" type="id"/>
+    <string name="about_page">Halaman About</string>
+    <string name="app_name">MVVMSimpleApp</string>
+    <string name="email_label">Email:</string>
+    <string name="instrument_image"/>
+    <string name="main_title">Halaman Utama</string>
+    <string name="name_label">Nama:</string>
+    <string name="share_prompt">Share via</string>
+    <string name="splash_image">Logo</string>
+    <style name="Base.Theme.MVVMSimpleApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="CircleShape" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="CircularImageView" parent="Widget.MaterialComponents.ShapeableImageView">
+        <item name="shapeAppearanceOverlay">@style/CircleShape</item>
+    </style>
+    <style name="Theme.MVVMSimpleApp" parent="Base.Theme.MVVMSimpleApp"/>
+</resources>
